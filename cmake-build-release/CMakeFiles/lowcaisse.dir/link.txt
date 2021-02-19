@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\lowcaisse.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\lowcaisse.dir/objects.a @CMakeFiles\lowcaisse.dir\objects1.rsp
+C:\msys64\mingw64\bin\gcc.exe -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles\lowcaisse.dir/objects.a -Wl,--no-whole-archive  -o lowcaisse.exe -Wl,--out-implib,liblowcaisse.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lowcaisse.dir\linklibs.rsp
